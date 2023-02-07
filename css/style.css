@@ -1,0 +1,124 @@
+/*Configuracoes gerais*/
+body{
+	font-family: 'Raleway', sans-serif;
+}
+.borda{
+	border: 1px solid red;
+}
+a{
+	text-decoration: none;
+}
+	/*Fontes*/
+	/*Links*/
+	#nav-link-fale-connosco,.trabalhos_recentes{
+		border: 2px solid #3e8f44;
+		background: none;
+		transition: all 0.5s ease-out;
+	}
+
+	#nav-link-fale-connosco:hover,.trabalhos_recentes:hover{
+		border: 2px solid #214a24;
+		background-color: #3e8f44;
+		color: white;
+	}
+
+	a.trabalhos_recentes{
+		color: white;
+	}
+	/*Tipografia*/
+/*Configuracoes no cabecalho*/
+	#inicio_contacto{
+		border-top: 2px solid #3e8f44;
+		border-bottom: 1px solid #ccc;
+		color: #747474;
+		font-size: 0.9em;
+		font-weight: 590;
+		
+	}
+	/*Configuracoes na barra de navegacao*/
+	/*Configuracoes em botoes*/
+	/*Configuracoes na barra de pesquisa*/
+/*Configuracoes no corpo*/
+#first-item{
+	background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)),url('/img/img1.jpg') center;
+}
+
+#second-item{
+	background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)),url('/img/img2.jpg') center center;
+}
+
+#background-bottom{
+	background: linear-gradient(to left, rgba(0,0,0,0.7), rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url('/img/img3.jpg') center center;
+}
+
+#servico_excepcional{
+	background: linear-gradient(to left, rgba(0,0,0,0.4), rgba(0,0,0,0.1),rgba(0,0,0,0.4)),url('/img/img4.jpg') center center;
+}
+
+#fale-connosco-baixo{
+	background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url('/img/img5.jpg') center center;
+}
+
+
+#trabalhos_recentes{
+	background: linear-gradient(to left, rgba(0,0,0,0.6), rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url('/img/img6.jpg') center center;
+}
+form{
+	background-color: rgba(255, 255, 255, 0.6);
+}
+.cards{
+	background-color: rgb(245, 245, 245);
+	position: relative;
+}
+
+.appear{
+	background-color: none;
+	opacity: 0;
+	
+}
+
+.cotacao{
+	background-color: #3e8f44;
+}
+
+.appear:hover{
+	transition: all 0.5s ease;
+	color: white;
+	background-color: #3e8f44;
+	opacity: 1;
+}
+.icons{
+	transform: scale(1);
+	transition: all 0.5s;
+	color: black;
+}
+.divIcon:hover .icons{
+	transform: scale(1.2);
+	color: orange;
+}
+
+.title,.bottom-icons{
+	color:#3e8f44;
+}
+
+input{
+	width: 100%;
+	padding: 1em;
+	border-radius: 10px;
+	border: 2px solid #747474;
+}
+
+textarea{
+	width: 100%;
+	height: 7em;
+}
+
+.nome_area{
+	border-bottom: 2px solid #3e8f44;
+	border-top: 2px solid #3e8f44;
+}
+
+.on{
+	color: #3e8f44;
+}
+/*Configuracoes no rodape*/
